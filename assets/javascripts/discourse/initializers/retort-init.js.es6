@@ -20,7 +20,7 @@ function initializePlugin(api) {
 
     Retort.storeWidget(helper)
 
-    return helper.h('div.retort-wrapper', _.map(post.retorts, (retort) => {
+    return helper.h('div.post-retort-area.clearfix', _.map(post.retorts, (retort) => {
       return helper.attach('retort-toggle', {
         post:      post,
         usernames: retort.usernames,
