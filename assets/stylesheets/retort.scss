@@ -1,10 +1,15 @@
 .topic-post .topic-body { z-index: 3; }
 
+.post-retort-area {
+  position: relative;
+  padding-left: 11px;
+}
+
 .post-retort {
   float: left;
   padding: 2px;
   z-index: 1;
-  margin: 20px 0px 20px 12px;
+  margin-right: 12px;
   position: relative;
   outline: 0;
 
