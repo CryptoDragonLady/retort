@@ -6,7 +6,6 @@
 }
 
 .post-retort {
-  float: left;
   padding: 2px;
   z-index: 1;
   margin-right: 12px;
@@ -49,12 +48,7 @@
 
   &__count {
     font-size: 12px;
-    padding: 1px;
-    position: relative;
-    bottom: 3px;
-    left: 1px;
-    font-weight: bold;
-    color: $secondary;
+    padding-left: 6px;
   }
 }
 
