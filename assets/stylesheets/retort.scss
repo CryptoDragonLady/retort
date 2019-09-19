@@ -1,12 +1,13 @@
 .topic-post .topic-body { z-index: 3; }
 
 .post-retort {
-  background: dark-light-diff($primary, $secondary, 25%, -25%);
+  background: white;
   float: left;
   padding: 2px;
   z-index: 1;
   margin: 20px 2px;
-  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid lightgrey;
   position: relative;
   outline: 0;
 
@@ -51,7 +52,7 @@
     bottom: 3px;
     left: 1px;
     font-weight: bold;
-    color: $secondary;
+    color: grey;
   }
 }
 
