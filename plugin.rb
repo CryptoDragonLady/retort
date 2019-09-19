@@ -1,4 +1,4 @@
-# name: retort
+# name: retort-foo
 # about: Reactions plugin for Discourse
 # version: 1.1.10
 # authors: James Kiesel (gdpelican)

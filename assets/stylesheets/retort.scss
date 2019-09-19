@@ -1,14 +1,16 @@
 .topic-post .topic-body { z-index: 3; }
 
-.post-retort {
-  background: dark-light-diff($primary, $secondary, 25%, -25%);
-  float: left;
-  padding: 2px;
-  z-index: 1;
-  margin: 20px 2px;
-  border-radius: 5px;
+.post-retort-area {
   position: relative;
-  outline: 0;
+  padding-left: 11px;
+}
+
+.post-retort {
+  padding: 6px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  background: #f7f7f7;
 
   &:hover .post-retort__tooltip { opacity: 1 }
 
@@ -46,12 +48,7 @@
 
   &__count {
     font-size: 12px;
-    padding: 1px;
-    position: relative;
-    bottom: 3px;
-    left: 1px;
-    font-weight: bold;
-    color: $secondary;
+    padding-left: 6px;
   }
 }
 
